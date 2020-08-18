@@ -7,7 +7,7 @@ const Body = Matter.Body;
 
 function preload()
 {
-	dustbinImg = loadImage("images/dustbingreen.png");
+	//dustbinImg = loadImage("images/dustbingreen.png");
 	//paperImg = loadImage("images/paper.png");
 }
 
@@ -24,7 +24,7 @@ function setup() {
 	Engine.run(engine);
 
 	boxPart1 = createSprite(675, 550, 200, 20);
-	boxPart1.addImage(dustbinImg);
+	//boxPart1.addImage(dustbinImg);
 	boxPart1.scale = 0.7; 
 	part1 = new Dustbin(675, 635, 200, 20, {isStatic:true});
 	
