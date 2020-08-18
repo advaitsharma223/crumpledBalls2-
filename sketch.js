@@ -8,7 +8,7 @@ const Body = Matter.Body;
 function preload()
 {
 	dustbinImg = loadImage("images/dustbingreen.png");
-	paperImg = loadImage("images/paper.png");
+	//paperImg = loadImage("images/paper.png");
 }
 
 function setup() {
